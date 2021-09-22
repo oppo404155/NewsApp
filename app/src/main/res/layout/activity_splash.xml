@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BlackTrans"
+    tools:context=".UI.SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/Splash_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/splash_style"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_photo" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:fontFamily="cursive"
+        android:text="Welcome back to your news app  "
+        android:textAlignment="center"
+        android:textColor="@color/ofwhite"
+        android:textColorLink="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+</FrameLayout>
